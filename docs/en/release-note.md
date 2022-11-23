@@ -2,6 +2,11 @@
 sidebar_position: 2
 title: PingCAP Clinic Release Note
 ---
+## November 18 , 2022 
+
+**Diag v1.2.1**
+
+- [Fixed] Fix the upload issue in operator environment.
 ## November 1 , 2022 
 
 **Diag v1.2.0**
