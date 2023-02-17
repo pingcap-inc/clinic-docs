@@ -2,39 +2,46 @@
 sidebar_position: 2
 title: PingCAP Clinic Release Note
 ---
-## November 18 , 2022 
+## Feburary 15 , 2023
+
+**Diag v1.3.0**
+
+- Diag is now open source ! https://github.com/pingcap/diag
+- [Added] Support collect raw prometheus TSDB .
+
+## November 18 , 2022
 
 **Diag v1.2.1**
 
 - [Fixed] Fix the upload issue in operator environment.
-## November 1 , 2022 
+## November 1 , 2022
 
 **Diag v1.2.0**
 
 - [Added] Support the metrics filter for operator deployment
 - [Fixed] Fix the Check issue for TiDB v6.2.
 
-## September 21 , 2022 
+## September 21 , 2022
 
 **Diag v1.1.0**
 
-- [Added] Allow collect metrics without PD on utils，you can see details by running this command "tiup diag util metricdump -h" . 
+- [Added] Allow collect metrics without PD on utils，you can see details by running this command "tiup diag util metricdump -h" .
 - [Added] Allow collect metrics without compress with "--compress-metrics=false".
 - [Fixed] Fix wrong meta limit on packager.
 - [Fixed] Fix KB links on checker.
 
-## September 19, 2022 
+## September 19, 2022
 
 **Clinic Service**
 
 - [Added] Provide Benchmark Report which can do a quick health check for a cluster, details see [How to use Clinic Reports?](https://docs.pingcap.com/zh/tidb/stable/clinic-report).
 
 
-## August 4, 2022 
+## August 4, 2022
 
 **Clinic Service**
 
-- [Added] Provide Comparison Report which can compare the key metrics between two data packages for a cluster. 
+- [Added] Provide Comparison Report which can compare the key metrics between two data packages for a cluster.
 
 ## July 15, 2022 - GA
 
